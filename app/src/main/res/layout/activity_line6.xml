@@ -4,8 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#47A891"
     tools:context=".ActivityLine6"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:gravity="center">
 
 
 
@@ -14,47 +16,62 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:gravity="center">
 
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="25dp"
             android:hint="x1"
             android:id="@+id/point_x1"/>
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="25dp"
             android:hint="y1"
             android:id="@+id/point_y1"/>
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="x2"
+            android:textSize="25dp"
             android:id="@+id/point_x2"/>
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="y2"
+            android:textSize="25dp"
             android:id="@+id/point_y2"/>
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="x точки"
-            android:id="@+id/point_x3"/>
+            android:id="@+id/point_x3"
+            android:textSize="25dp"/>
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="y точки"
-            android:id="@+id/point_y3"/>
+            android:id="@+id/point_y3"
+            android:textSize="25dp"/>
 
 
 
 
     </LinearLayout>
-    <EditText
+    <Button
+        android:text="проверить"
+        android:layout_width="wrap_content"
+        android:textSize="25dp"
+        android:backgroundTint="@color/green_200"
+        android:layout_height="wrap_content"/>
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Принадлежит ли точка прямой"/>
+        android:text="Принадлежит ли точка прямой"
+        android:layout_gravity="center"
+        android:textSize="25dp"/>
 
 </LinearLayout>

@@ -5,22 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ActionLine"
-    android:orientation="vertical">
+    android:background="#47A891"
+    android:orientation="vertical"
+    android:gravity="center">
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/cord6"
-        android:text="6 коардинат"/>
-    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/green_200"
+        android:text="6 коардинат" />
+
+    <Button
         android:id="@+id/cord8"
-        android:text="8 коардинат"/>
-
-
-
-
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/green_200"
+        android:text="8 коардинат" />
 
 
 </LinearLayout>

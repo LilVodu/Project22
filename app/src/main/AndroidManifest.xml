@@ -11,7 +11,8 @@
         android:theme="@style/Theme.Project2">
         <activity
             android:name=".ActivityLine8"
-            android:exported="false" />
+            android:exported="false"
+            />
         <activity
             android:name=".ActivityLine6"
             android:exported="false" />

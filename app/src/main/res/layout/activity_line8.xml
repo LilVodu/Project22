@@ -3,43 +3,53 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#47A891"
     android:layout_height="match_parent"
     tools:context=".ActivityLine8"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:gravity="center">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="первая прямая"/>
+        android:text="первая прямая"
+        android:gravity="center"
+        android:textSize="25dp"/>
 
 
 
     <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+        android:gravity="center"
+        android:textSize="25dp">
 
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="x1"
-        android:id="@+id/line_x1"/>
+        android:id="@+id/line_x1"
+        android:textSize="25dp"/>
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="y1"
-        android:id="@+id/line_y1"/>
+        android:id="@+id/line_y1"
+        android:textSize="25dp"/>
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="x2"
-        android:id="@+id/line_x2"/>
+        android:id="@+id/line_x2"
+        android:textSize="25dp"/>
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="y2"
-        android:id="@+id/line_y2"/>
+        android:id="@+id/line_y2"
+        android:textSize="25dp"/>
 
 
 
@@ -48,7 +58,9 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="вторая прямая"/>
+        android:text="вторая прямая"
+        android:gravity="center"
+        android:textSize="25dp"/>
 
 
 
@@ -58,26 +70,31 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:gravity="center">
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="25dp"
             android:hint="x1"
             android:id="@+id/line2_x1"/>
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="25dp"
             android:hint="y1"
             android:id="@+id/line2_y1"/>
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="25dp"
             android:hint="x2"
             android:id="@+id/line2_x2"/>
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="25dp"
             android:hint="y2"
             android:id="@+id/line2_y2"/>
 
@@ -91,15 +108,20 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:gravity="center">
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:backgroundTint="@color/green_200"
             android:text="точка пересечения"
             android:id="@+id/two_line_point"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/green_200"
+            android:textSize="15dp"
             android:id="@+id/two_line_angle"
             android:text="найти угол"/>
 
@@ -111,7 +133,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ответ"/>
+        android:textSize="25dp"
+        android:text="ответ"
+        android:layout_gravity="center"/>
 
 
 
